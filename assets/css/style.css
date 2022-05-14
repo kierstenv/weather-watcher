@@ -1,0 +1,22 @@
+header {
+  background: linear-gradient(45deg, #4d7be3, #3f1785);
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+main {
+  display: flex;
+}
+
+current-conditions {
+  flex: 1;
+  padding: 1em;
+  background: #f5f5f5;
+  border: #3f1785;
+}
