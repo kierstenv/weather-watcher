@@ -12,7 +12,7 @@ const options = {
 };
 
 const getCurrentWeather = (city) => {
-  const apiUrl = 'http://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=imperial&appid=e820387128e6fe0d92e2a3bb21d58e91';
+  const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=imperial&appid=e820387128e6fe0d92e2a3bb21d58e91';
   
   fetch(apiUrl).then((response) => {
     if (response.ok) {
@@ -47,7 +47,7 @@ const displayWeather = (data) => {
     <p>Humidity: ${data.main.humidity}%</p>
     <p>Wind Speed: ${data.wind.speed} mph</p>
     <p>Conditions: ${data.weather[0].main}</p>
-    <img src="http://openweathermap.org/img/w/${data.weather[0].icon}.png">
+    <img src="https://openweathermap.org/img/w/${data.weather[0].icon}.png">
   `;
   weatherContainerEl.appendChild(weatherEl);
 }
