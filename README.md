@@ -1,4 +1,4 @@
-# weather-watcher <b>`*`***WIP***`*`</b>
+# weather-watcher [ ***WIP*** ]
   
   ## Description [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0)
   
